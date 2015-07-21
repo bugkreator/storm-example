@@ -9,6 +9,7 @@ public class LearningStormBolt extends BaseBasicBolt{
 
 	private static final long serialVersionUID = 1L;
 
+	@Override
 	public void execute(Tuple input, BasicOutputCollector collector) {
 		// Get the field "site" from input tuple.
 		String test = input.getStringByField("site");
@@ -16,6 +17,7 @@ public class LearningStormBolt extends BaseBasicBolt{
 		System.out.println("Name of input site is : " + test);	
 	}
 
+	@Override
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
 		
 	}
