@@ -14,7 +14,7 @@ public class LearningStormSingleNodeTopology {
 
 		Config conf = new Config();
 		conf.setNumWorkers(3);
-		
+
 		try {
 			// args[0] is the name of submitted topology
 			StormSubmitter.submitTopology(args[0], conf, builder.createTopology());

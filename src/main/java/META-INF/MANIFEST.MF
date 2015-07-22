@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: com.learningstorm.storm_example.LearningStormTopology
+Main-Class: com.learningstorm.storm_example.LearningStormSingleNodeTop
+ ology
 

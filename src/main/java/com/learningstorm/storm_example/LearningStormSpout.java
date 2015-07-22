@@ -31,6 +31,7 @@ public class LearningStormSpout extends BaseRichSpout{
 			SpoutOutputCollector spoutOutputCollector) {
 		// Open the spout
 		this.spoutOutputCollector = spoutOutputCollector;
+
 	}
 
 	@Override
